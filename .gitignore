@@ -1,0 +1,16 @@
+# Build outputs and IDE-local files
+**/target/
+**/build/
+**/.idea/
+**/*.iml
+**/*.iws
+**/*.ipr
+workspace/
+
+# Local secrets and runtime configuration
+.env
+.env.*
+**/application-local.properties
+
+# Maven wrapper binaries are downloaded by the wrapper
+**/.mvn/wrapper/maven-wrapper.jar
